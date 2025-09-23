@@ -104,6 +104,7 @@
 		EB7565E52E7B33F700DA3884 /* heyy */ = {
 			isa = PBXGroup;
 			children = (
+				EB75665D2E82B97500DA3884 /* ExploreView */,
 				EB7566132E7F289E00DA3884 /* ViewModel */,
 				EB7565E82E7B352100DA3884 /* OtherViews */,
 				EB7565E72E7B349100DA3884 /* LevelProgress */,
@@ -157,6 +158,13 @@
 				EB7566242E803CD300DA3884 /* Topic5View.swift */,
 			);
 			path = TopicViews;
+			sourceTree = "<group>";
+		};
+		EB75665D2E82B97500DA3884 /* ExploreView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExploreView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

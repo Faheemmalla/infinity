@@ -25,21 +25,15 @@ struct LiquidGlassTabView: View {
             Tab("Scan", systemImage: "camera.viewfinder", value: .scan) {
                 Color.purple.ignoresSafeArea()
             }
-            Tab(value: .search, role: .search) {
-                
-                NavigationStack {
-                    List {
-                        Text("Search screen")
-                    }
-                    .navigationTitle("Search")
-                    .searchable(text: $searchString)
-                }
+            Tab("Explore", systemImage: "book.pages", value: .scan) {
+                Color.brown.ignoresSafeArea()
             }
+
             
         }
         .navigationBarBackButtonHidden()
     }
 }
 #Preview {
-    StartView()
+    LiquidGlassTabView()
 }

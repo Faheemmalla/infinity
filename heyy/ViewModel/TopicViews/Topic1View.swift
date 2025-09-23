@@ -16,9 +16,14 @@ struct Topic1View: View {
                 .padding()
             Text("hey 1")
             Spacer()
-            Button("Get back"){
+            Button(action:{
                 dismiss()
-            }
+            }, label:{
+                Image("backLogo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 45)
+            })
         }
         .navigationBarBackButtonHidden()
         .navigationTitle("Midnight Vibes")
