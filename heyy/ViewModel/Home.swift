@@ -40,7 +40,7 @@ struct Home: View {
     @ViewBuilder
     func destinationView(for album: Album) -> some View {
         switch album.album_name {
-        case "Midnight Vibes":
+        case "Square":
             Topic1View()
         case "Ocean Dreams":
             Topic2View()

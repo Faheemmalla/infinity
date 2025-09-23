@@ -13,7 +13,7 @@ struct Album{
     var album_cover : String
 }
 let albums = [
-    Album(album_name: "Midnight Vibes", album_author: "Arjun Mehta", album_cover: "demoImage"),
+    Album(album_name: "Square", album_author: "Arjun Mehta", album_cover: "SQUARELOGO"),
     Album(album_name: "Ocean Dreams", album_author: "Sana Kapoor", album_cover: "demoImage"),
     Album(album_name: "City Lights", album_author: "Rahul Verma", album_cover: "demoImage"),
     Album(album_name: "Golden Hour", album_author: "Ananya Singh", album_cover: "demoImage"),

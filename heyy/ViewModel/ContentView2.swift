@@ -15,7 +15,7 @@ struct ContentView2: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .principal) {
-                        Text("Conquer Every Level")
+                        Text("Learn,Explore Maths")
                             .font(.system(size: 24, weight: .heavy, design: .rounded))
                             .foregroundStyle(
                                 LinearGradient(
